@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+BACKEND/node_modules/
+frontend/node_modules/
+
+# Environment and secrets (use .env.example as template)
+.env
+.env.local
+.env.*.local
+BACKEND/.env
+
+# Build output
+frontend/build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE and OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Optional
+*.tgz
