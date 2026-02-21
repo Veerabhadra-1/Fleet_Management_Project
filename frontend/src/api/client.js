@@ -1,14 +1,15 @@
 import axios from "axios";
 
-const BASE_URL = process.env.REACT_APP_API_URL || "http://localhost:5000";
-
 const client = axios.create({
-  baseURL: BASE_URL,
+  baseURL: process.env.REACT_APP_API_URL || "",
   headers: { "Content-Type": "application/json" },
 });
 
 function getToken() {
-  return localStorage.getItem("fleetflow_token") || sessionStorage.getItem("fleetflow_token");
+  return (
+    localStorage.getItem("fleetflow_token") ||
+    sessionStorage.getItem("fleetflow_token")
+  );
 }
 
 client.interceptors.request.use((config) => {
