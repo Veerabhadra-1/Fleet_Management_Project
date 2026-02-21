@@ -74,41 +74,8 @@ Frontend library for building dynamic and reusable UI components.
 
 JavaScript runtime used to power the backend server.
 
-# 📂 Project Structure
-transport-management/
-│
-├── FRONTEND/        # React Application
-├── BACKEND/         # Node.js + Express Server
-│   ├── models/
-│   ├── routes/
-│   ├── controllers/
-│   ├── scripts/
-│   └── server.js
-└── README.md
-⚙️ Installation & Setup
-1️⃣ Clone the Repository
-git clone https://github.com/your-username/transport-management.git
-cd transport-management
-2️⃣ Backend Setup
-cd BACKEND
-npm install
 
-Create a .env file inside BACKEND:
-
-MONGO_URL=your_mongodb_connection_string
-PORT=5000
-JWT_SECRET=your_secret_key
-FRONTEND_URL=http://localhost:3000
-NODE_ENV=development
-
-Run backend:
-
-npm start
-3️⃣ Frontend Setup
-cd FRONTEND
-npm install
-npm start
-📊 Report Generation
+# 📊 Report Generation
 
 The system allows administrators to generate detailed transport activity reports in PDF format for operational analysis and record maintenance.
 
