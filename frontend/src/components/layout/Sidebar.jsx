@@ -6,7 +6,7 @@ import {
   CarOutlined,
   SendOutlined,
   ToolOutlined,
-  FuelOutlined,
+  FireOutlined,   // ✅ fixed
   TeamOutlined,
   BarChartOutlined,
   UserOutlined,
@@ -21,7 +21,7 @@ const menuItems = [
   { key: "/vehicles", icon: <CarOutlined />, label: "Vehicle Registry" },
   { key: "/trips", icon: <SendOutlined />, label: "Trip Dispatcher" },
   { key: "/maintenance", icon: <ToolOutlined />, label: "Maintenance & Service" },
-  { key: "/fuel", icon: <FuelOutlined />, label: "Fuel & Expense" },
+  { key: "/fuel", icon: <FireOutlined />, label: "Fuel & Expense" }, // ✅ fixed
   { key: "/drivers", icon: <TeamOutlined />, label: "Driver Management" },
   { key: "/analytics", icon: <BarChartOutlined />, label: "Analytics & Reports" },
   { key: "/account", icon: <UserOutlined />, label: "Account" },
